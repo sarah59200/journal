@@ -1,0 +1,94 @@
+
+ul {
+ padding:50px;
+ padding: 0;
+ margin:0;
+ margin-right: 20px;
+ margin-left: 20px;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;
+ width:100px;
+ background-color:#CCCCCC;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ }
+
+ #header2
+ {
+display:block;
+margin:auto;
+position:relative;
+width:700px;
+}
+
+h4
+{
+  color: red;
+  padding-left: 20px;
+  font-family: verdana;
+  font-size: 13px;
+}
+h1
+{
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+}
+p
+{
+  padding-right: 90px;
+  padding-left: 90px;
+  font-family: verdana;
+  font-size: 13px;
+}
+
+h3
+{
+  padding-right: 90px;
+  padding-left: 90px;
+  font-family: verdana;
+  font-size: 18px;
+}
+
+.background
+{
+  font-family: verdana;
+  width: 1350px;
+  height: 100px;
+  background-color: red;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  padding-top: 30px
+}
+#photo
+{
+  width: 500px;
+  height:300px;
+}
+
+#header4
+{
+  height:80px;
+  color: white;
+  background: red; /* sa ces le footer qui vien tout en bas de la page*/
+}
